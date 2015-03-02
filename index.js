@@ -1,6 +1,18 @@
 var xhr = require('xhr');
 var EventEmitter = require('events').EventEmitter;
 
+/**
+  # ghauth-web
+
+  A lightweight github authentication mechanism that works both in single page
+  apps (that have been configured to work with a
+  [gatekeeper](https://github.com/prose/gatekeeper)) and also chrome apps using
+  the [`chrome.identity`](https://developer.chrome.com/apps/identity) API.
+
+  ## Example Usage
+
+  <<< examples/fake.js
+**/
 module.exports = function(config, token) {
   var isApp = typeof chrome != 'undefined' && chrome.identity;
   var subcfg = (config || {})[isApp ? 'app' : 'web'] || {};
