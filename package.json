@@ -1,0 +1,27 @@
+{
+  "name": "ghauth-web",
+  "version": "1.0.0",
+  "description": "A github authentication client that works for both single page web apps and also chrome apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/ghauth-web.git"
+  },
+  "keywords": [
+    "github",
+    "oauth2",
+    "chrome.identity"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/ghauth-web/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/ghauth-web",
+  "dependencies": {
+    "xhr": "^2.0.1"
+  }
+}
