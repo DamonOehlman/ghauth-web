@@ -23,5 +23,8 @@
   "homepage": "https://github.com/DamonOehlman/ghauth-web",
   "dependencies": {
     "xhr": "^2.0.1"
+  },
+  "devDependencies": {
+    "hyperscript": "^1.4.4"
   }
 }
