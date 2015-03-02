@@ -40,6 +40,10 @@ document.body.appendChild(h('button', {
 
 ```
 
+## CLI Usage
+
+Then you'd be looking for [`ghauth`](https://github.com/rvagg/ghauth).
+
 ## License(s)
 
 ### ISC

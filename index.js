@@ -12,6 +12,11 @@ var EventEmitter = require('events').EventEmitter;
   ## Example Usage
 
   <<< examples/fake.js
+
+  ## CLI Usage
+
+  Then you'd be looking for [`ghauth`](https://github.com/rvagg/ghauth).
+
 **/
 module.exports = function(config, token) {
   var isApp = typeof chrome != 'undefined' && chrome.identity;
