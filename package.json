@@ -1,6 +1,6 @@
 {
   "name": "ghauth-web",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A github authentication client that works for both single page web apps and also chrome apps",
   "main": "index.js",
   "scripts": {
