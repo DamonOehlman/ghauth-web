@@ -128,10 +128,6 @@ module.exports = function(config, token) {
     return window.location = buildUrl();
   };
 
-  auth.setToken = function(value) {
-    token = value;
-  };
-
   // if we are not an app, do not already have a token and have been supplied a code query param authenticate
   if ((! isApp) && (! token) && url.query.code) {
     resolveGatekeeperCode(url.query.code);
